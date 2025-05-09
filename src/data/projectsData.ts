@@ -30,6 +30,20 @@ import demo_2 from '../assets/projects/demo-shop/demo_2.png';
 import demo_3 from '../assets/projects/demo-shop/demo_3.png';
 import demo_4 from '../assets/projects/demo-shop/demo_4.png';
 
+import plmaze_1 from '../assets/projects/plmaze/plmaze_1.png';
+import plmaze_2 from '../assets/projects/plmaze/plmaze_2.png';
+import plmaze_3 from '../assets/projects/plmaze/plmaze_3.png';
+
+import qpi_1 from '../assets/projects/qpi/qpi_1.png';
+import qpi_2 from '../assets/projects/qpi/qpi_2.png';
+import qpi_3 from '../assets/projects/qpi/qpi_3.png';
+
+import bible_quiz_1 from '../assets/projects/bible-quiz-game/bible_quiz_1.png';
+
+import cgmi_1 from '../assets/projects/cgmi/cgmi_1.png';
+import cgmi_2 from '../assets/projects/cgmi/cgmi_2.png';
+import cgmi_3 from '../assets/projects/cgmi/cgmi_3.png';
+
 type ImageType = {
     id: number,
     source: string
@@ -189,6 +203,78 @@ const projectsItem: ProjectsItemTypes = [
             {
                 id: 4,
                 source: demo_4
+            },
+        ]
+    },
+    {
+        id: 7,
+        title: "Play-A-Maze",
+        description: "A WordPress-based semi e-commerce website that showcases detailed information about the company and its products/services, with limited online purchasing features.",
+        link: "https://plmaze.com/",
+        images: [
+            {
+                id: 1,
+                source: plmaze_1
+            },
+            {
+                id: 2,
+                source: plmaze_2
+            },
+            {
+                id: 3,
+                source: plmaze_3
+            },
+        ]
+    },
+    {
+        id: 8,
+        title: "QPI Technical Services LLC",
+        description: "A WordPress website designed to showcase company information, featuring integrated WhatsApp support for direct customer inquiries and communication.",
+        link: "https://qpi.ae/",
+        images: [
+            {
+                id: 1,
+                source: qpi_1
+            },
+            {
+                id: 2,
+                source: qpi_2
+            },
+            {
+                id: 3,
+                source: qpi_3
+            },
+        ]
+    },
+    {
+        id: 8,
+        title: "Bible Quiz Game",
+        description: "A fun and interactive Bible quiz game developed using C# WinForms with SQLite for local data storage.",
+        link: "https://eudinson.github.io/Bible-Quiz-Game/",
+        images: [
+            {
+                id: 1,
+                source: bible_quiz_1
+            },
+        ]
+    },
+    {
+        id: 9,
+        title: "CGMI Church",
+        description: "A WordPress website developed for a local church, featuring service information, upcoming events, media content, and contact details — designed to keep the congregation informed and connected.",
+        link: "https://churchcgmi.com/",
+        images: [
+            {
+                id: 1,
+                source: cgmi_1
+            },
+            {
+                id: 2,
+                source: cgmi_2
+            },
+            {
+                id: 3,
+                source: cgmi_3
             },
         ]
     }

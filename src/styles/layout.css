@@ -20,12 +20,15 @@
     gap: 10px;
     max-width: 800px;
     height: 100vh;
-    overflow: hidden;
 }
 
 .about-page-main-container h1 {
-    color: #2980b9;
+    /* color: #2980b9; */
     font-size: clamp(2rem, 5vw, 4rem);
+    background-image: linear-gradient(to top, #00c6fb 0%, #005bea 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .about-page-main-container p {
@@ -54,12 +57,15 @@
     gap: 1rem;
     justify-content: center;
     height: 100vh;
-    overflow: hidden;
 }
 
 .contact-page-main-container h1 {
-    color: #2980b9;
+    /* color: #2980b9; */
     font-size: clamp(2rem, 5vw, 4rem);
+    background-image: linear-gradient(to top, #00c6fb 0%, #005bea 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .contact-page-main-container p {
@@ -81,8 +87,12 @@
 }
 
 .projects-page-main-container h1 {
-    color: #2980b9;
+    /* color: #2980b9; */
     font-size: clamp(2rem, 5vw, 4rem);
+    background-image: linear-gradient(to top, #00c6fb 0%, #005bea 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .projects-container {
@@ -92,12 +102,16 @@
 }
 
 .project-title {
-    color: #2980b9;
+    /* color: #2980b9; */
     font-size: clamp(1rem, 2.5vw, 1.5rem);
     font-weight: 600;
     display: flex;
     align-items: center;
     gap: 10px;
+    background-image: linear-gradient(to right, #f83600 0%, #f9d423 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .project-description {

@@ -36,7 +36,7 @@ const NavMenu = () => {
                         <Link key={item.id} to={item.href}>
                             <Button
                                 sx={{ 
-                                    backgroundImage: 'linear-gradient(to top, #6a85b6 0%, #bac8e0 100%)',
+                                    backgroundImage: 'linear-gradient(to top, #00c6fb 0%, #005bea 100%)',
                                 }}
                             >
                                 <span className='button-label'>{item.label}</span>

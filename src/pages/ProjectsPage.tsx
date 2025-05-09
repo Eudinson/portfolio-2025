@@ -27,7 +27,7 @@ const ProjectsPage = () => {
                                         <a href={project.link} target='_blank'>
                                             <p className='project-title'>
                                                 {project.title}
-                                                <OpenInNewOutlined sx={{ transform: "scale(.7)" }} />
+                                                <OpenInNewOutlined sx={{ transform: "scale(.7)" }} color='primary'/>
                                             </p>
                                         </a>
                                         :
